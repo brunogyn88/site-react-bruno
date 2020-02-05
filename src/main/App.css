@@ -1,0 +1,16 @@
+:root {
+  --bg-dark: #1a2f3a;
+
+  --header-height: 100px;
+  --footer-height: 100px;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: local("Montserrat-Regular"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"), url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}

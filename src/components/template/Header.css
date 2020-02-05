@@ -1,0 +1,26 @@
+.header {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 999;
+}
+
+a {
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0 17px;
+  color: black;
+  transition: 0.5s all;
+  font-size: 14px;
+  font-family: Montserrat-Bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
