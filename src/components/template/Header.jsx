@@ -9,6 +9,7 @@ export default props =>
                 <nav className="col-md-9">
                     <a href="/">Home</a>
                     <a href="/institucional">Sobre mim</a>
+                    <a href="/servicos">Serviços</a>
                     <a href="/servicos">Skills</a>
                     <a href="/projetos">Projetos</a>
                     <a href="/contato">Contato</a>

@@ -9,6 +9,8 @@ section#service {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 200px;
+  margin: 40px 0;
 }
 
 .icon-service {
@@ -17,7 +19,7 @@ section#service {
 }
 
 .title-service {
-  font-size: 25px;
+  font-size: 22px;
   font-family: Montserrat-Bold;
   color: #00b8e4;
   text-align: center;
@@ -26,7 +28,7 @@ section#service {
 }
 
 .subtitle-service {
-  font-size: 16px;
+  font-size: 14px;
   font-family: Montserrat-Bold;
   color: white;
   text-align: center;

@@ -1,0 +1,18 @@
+section#contact {
+  background-color: #000000;
+  padding: 100px 0;
+}
+
+.text-message {
+  font-size: 20px;
+  font-family: Montserrat-Bold;
+  color: white;
+}
+
+.text-contact {
+  font-size: 18px;
+  font-family: Montserrat-Bold;
+  color: white;
+  margin: 0 !important;
+  line-height: 2;
+}

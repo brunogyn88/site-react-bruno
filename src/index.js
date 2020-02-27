@@ -7,9 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStroopwafel, faMobile } from '@fortawesome/free-solid-svg-icons'
+import { faStroopwafel, faMobileAlt, faCode, faFileCode, faLaptopCode, faKeyboard } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faStroopwafel, faMobile)
+library.add(faStroopwafel, faMobileAlt, faCode, faFileCode, faLaptopCode, faKeyboard)
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

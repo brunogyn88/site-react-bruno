@@ -6,6 +6,9 @@ import Footer from '../components/template/Footer'
 import Home from '../components/template/Home'
 import About from '../components/template/About'
 import Service from '../components/template/Service'
+import Skill from '../components/template/Skill'
+import Project from '../components/template/Project'
+import Contact from '../components/template/Contact'
 
 export default props =>
     <div className="app">
@@ -13,6 +16,9 @@ export default props =>
             <Home />
             <About />
             <Service />
+            <Skill />
+            <Project />
+            <Contact />
         </Main>
         <Footer />
     </div>

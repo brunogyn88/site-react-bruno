@@ -3,5 +3,5 @@ import React from 'react'
 
 export default props =>
     <footer className="footer">
-        Rodapé
+        © Copyright 2020.
     </footer>
