@@ -29,3 +29,8 @@ a:hover {
   text-decoration: none;
   color: black;
 }
+
+.active-header {
+  background-color: black;
+  transition: 0.5s all;
+}

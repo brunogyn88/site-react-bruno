@@ -1,20 +1,44 @@
 import React from 'react'
 import './Project.css'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default props =>
-<section id="project">
-    <div className="container">
-        <h1>Projetos</h1>
-        <div className="row">
-            <div className="col-md-4">
-                <a href="#" className="box-project"></a>
+    <section id="project">
+        <div className="container">
+            <h1>Projetos</h1>
+            <div className="row">
+                <div className="col-md-4">
+                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
+                        <a href="#" className="box-project"></a>
+                    </ScrollAnimation>
+                </div>
+                <div className="col-md-4">
+                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
+                        <a href="#" className="box-project"></a>
+                    </ScrollAnimation>
+                </div>
+                <div className="col-md-4">
+                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
+                        <a href="#" className="box-project"></a>
+                    </ScrollAnimation>
+                </div>
             </div>
-            <div className="col-md-4">
-                <a href="#" className="box-project"></a>
-            </div>
-            <div className="col-md-4">
-                <a href="#" className="box-project"></a>
+            <div className="row">
+                <div className="col-md-4">
+                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
+                        <a href="#" className="box-project"></a>
+                    </ScrollAnimation>
+                </div>
+                <div className="col-md-4">
+                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
+                        <a href="#" className="box-project"></a>
+                    </ScrollAnimation>
+                </div>
+                <div className="col-md-4">
+                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
+                        <a href="#" className="box-project"></a>
+                    </ScrollAnimation>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>

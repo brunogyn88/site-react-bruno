@@ -2,3 +2,12 @@ section#skill {
   background-color: #000000;
   padding: 100px 0;
 }
+
+.progress {
+  margin-top: 38px;
+}
+
+.img-rails {
+  width: 50px;
+  margin: 20px 0;
+}
