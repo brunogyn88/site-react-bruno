@@ -1,0 +1,33 @@
+section#service {
+  background-color: #000000;
+  padding: 100px 0;
+}
+
+.content-service {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-service {
+  font-size: 50px;
+  color: white;
+}
+
+.title-service {
+  font-size: 25px;
+  font-family: Montserrat-Bold;
+  color: #00b8e4;
+  text-align: center;
+  line-height: 1.2;
+  padding: 15px 0 3px;
+}
+
+.subtitle-service {
+  font-size: 16px;
+  font-family: Montserrat-Bold;
+  color: white;
+  text-align: center;
+}

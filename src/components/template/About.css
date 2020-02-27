@@ -1,0 +1,41 @@
+section#about {
+  background-color: #000000;
+  padding: 100px 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Montserrat-Bold;
+  color: #00b8e4;
+}
+
+.text-name-about {
+  font-size: 30px;
+  font-family: Montserrat-Bold;
+  color: white;
+  padding-top: 24px;
+}
+
+.text-about {
+  font-size: 20px;
+  font-family: Montserrat-Bold;
+  color: white;
+}
+
+.contact {
+  font-size: 18px;
+  font-family: Montserrat-Bold;
+  color: white;
+  padding-top: 24px;
+}
+
+.whatsapp {
+  font-size: 18px;
+  font-family: Montserrat-Bold;
+  color: #39c702 !important;
+  margin: 0;
+}
+
+.whatsapp:hover{
+    text-decoration: none;
+}
