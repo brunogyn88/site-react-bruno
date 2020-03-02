@@ -13,6 +13,7 @@ export default class Header extends Component {
             activeClass: 'header',
             isActive: false
         }
+        this.myRef = React.createRef()
     }
 
     toggleButton = () => {
@@ -37,6 +38,14 @@ export default class Header extends Component {
         window.onscroll = () => this.handleScroll()
     }
 
+    // scrollToMyRef = () => window.scrollTo(0, this.myRef.current.offsetTop)   
+    scrollToMyRef(e, name) {
+        e.preventDefault()
+
+        window.scrollTo(0, this.myRef.current.offsetTop)
+        console.log(this)
+    }
+
     render() {
         return (
             <header className={this.state.activeClass}>
@@ -46,9 +55,9 @@ export default class Header extends Component {
                             <a className="logo" href="/"><img src={logo} className="logo-white" alt="Bruno Web" /></a>
                         </Col>
                         <MediaQuery minDeviceWidth={1280}>
-                            <Col md={8}>
+                            <Col md={10}>
                                 <nav>
-                                    <a href="/">Home</a>
+                                    <a ref="cpDev1" onClick={e => this.scrollToMyRef(e, 'home')} href="/">Home</a>
                                     <a href="/institucional">Sobre mim</a>
                                     <a href="/servicos">Serviços</a>
                                     <a href="/servicos">Skills</a>
@@ -57,26 +66,28 @@ export default class Header extends Component {
                                 </nav>
                             </Col>
                         </MediaQuery>
-                        <Col md={1} xs={4}>
-                            <MediaQuery maxDeviceWidth={1280}>
+                        <MediaQuery maxDeviceWidth={1280}>
+                            <Col md={1} xs={4}>
                                 <HamburgerArrow
                                     isActive={this.state.isActive}
                                     toggleButton={this.toggleButton}
                                     barColor="white"
                                     name="Slider"
                                 />
-                            </MediaQuery>
-                        </Col>
-                        <Col md={12}>
-                            <nav className={this.state.isActive ? 'active-menu' : ''}>
-                                <a className="menu" href="/">Home</a>
-                                <a className="menu" href="/institucional">Sobre mim</a>
-                                <a className="menu" href="/servicos">Serviços</a>
-                                <a className="menu" href="/servicos">Skills</a>
-                                <a className="menu" href="/projetos">Projetos</a>
-                                <a className="menu" href="/contato">Contato</a>
-                            </nav>
-                        </Col>
+                            </Col>
+                        </MediaQuery>
+                        <MediaQuery maxDeviceWidth={1280}>
+                            <Col md={12}>
+                                <nav className={this.state.isActive ? 'active-menu' : ''}>
+                                    <a className="menu" href="/">Home</a>
+                                    <a className="menu" href="/institucional">Sobre mim</a>
+                                    <a className="menu" href="/servicos">Serviços</a>
+                                    <a className="menu" href="/servicos">Skills</a>
+                                    <a className="menu" href="/projetos">Projetos</a>
+                                    <a className="menu" href="/contato">Contato</a>
+                                </nav>
+                            </Col>
+                        </MediaQuery>
                     </Row>
                 </div>
             </header>
