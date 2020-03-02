@@ -11,15 +11,29 @@ section#home {
   align-items: center;
 }
 
-.text-fix-typed{
-    font-size: 50px;
-    font-family: Montserrat-Bold;
-    color: white;
-    padding-right: 14px;
+.text-fix-typed {
+  font-size: 50px;
+  font-family: Montserrat-Bold;
+  color: white;
+  padding-right: 14px;
 }
 
 span {
-    font-size: 50px;
+  font-size: 50px;
+  font-family: Montserrat-Bold;
+  color: white;
+}
+
+@media screen and (max-width: 1280px) {
+  .text-fix-typed {
+    font-size: 28px;
     font-family: Montserrat-Bold;
     color: white;
+    padding-right: 14px;
+  }
+  span {
+    font-size: 28px;
+    font-family: Montserrat-Bold;
+    color: white;
+  }
 }

@@ -39,3 +39,30 @@ h1 {
 .whatsapp:hover{
     text-decoration: none;
 }
+
+@media screen and (max-width: 1280px) {
+  section#about {
+    background-color: #000000;
+    padding: 40px 0;
+  }
+
+  .text-name-about {
+    font-size: 26px;
+    font-family: Montserrat-Bold;
+    color: white;
+    padding-top: 24px;
+  }
+  
+  .text-about {
+    font-size: 16px;
+    font-family: Montserrat-Bold;
+    color: white;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: Montserrat-Bold;
+    color: #00b8e4;
+    text-align: center;
+  }
+}
