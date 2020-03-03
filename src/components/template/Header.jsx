@@ -60,12 +60,12 @@ export default class Header extends Component {
                         <MediaQuery minDeviceWidth={1280}>
                             <Col md={10}>
                                 <nav>
-                                    <a onClick={e => this.scrollToMyRef(e, 'home')} href="">Home</a>
-                                    <a onClick={e => this.scrollToMyRef(e, 'about')} href="">Sobre mim</a>
-                                    <a onClick={e => this.scrollToMyRef(e, 'service')} href="" >Serviços</a>
-                                    <a onClick={e => this.scrollToMyRef(e, 'skill')} href="" >Habilidades</a>
-                                    <a onClick={e => this.scrollToMyRef(e, 'project')} href="" >Projetos</a>
-                                    <a onClick={e => this.scrollToMyRef(e, 'contact')} href="">Contato</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'home')} href="/#">Home</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'about')} href="/#">Sobre mim</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'service')} href="/#" >Serviços</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'skill')} href="/#" >Habilidades</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'project')} href="/#" >Projetos</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'contact')} href="/#">Contato</a>
                                 </nav>
                             </Col>
                         </MediaQuery>
@@ -82,12 +82,12 @@ export default class Header extends Component {
                         <MediaQuery maxDeviceWidth={1280}>
                             <Col md={12}>
                                 <nav className={this.state.isActive ? 'active-menu' : ''}>
-                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'home')} href="">Home</a>
-                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'about')} href="">Sobre mim</a>
-                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'service')} href="" >Serviços</a>
-                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'skill')} href="" >Habilidades</a>
-                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'project')} href="" >Projetos</a>
-                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'contact')} href="">Contato</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'home')} href="/#">Home</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'about')} href="/#">Sobre mim</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'service')} href="/#" >Serviços</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'skill')} href="/#" >Habilidades</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'project')} href="/#" >Projetos</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'contact')} href="/#">Contato</a>
                                 </nav>
                             </Col>
                         </MediaQuery>

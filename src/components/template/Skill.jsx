@@ -17,7 +17,7 @@ export default props =>
             <ProgressSkill icon="php" width="80" />
             <div className="row">
                 <div className="col-md-1">
-                    <img className="img-rails" src={rorimage} />
+                    <img className="img-rails" src={rorimage} alt="Ruby On Rails" />
                 </div>
                 <div className="col-md-11">
                     <ProgressBar animated now={90} />

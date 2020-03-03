@@ -1,6 +1,9 @@
 import React from 'react'
 import './Project.css'
 import ScrollAnimation from 'react-animate-on-scroll';
+import suprem from '../../images/suprem.jpg'
+import maispetro from '../../images/maispetro.jpg'
+import showmusic from '../../images/showmusic.jpg'
 
 export default props =>
     <section id="project">
@@ -9,34 +12,23 @@ export default props =>
             <div className="row">
                 <div className="col-md-4">
                     <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="#" className="box-project"></a>
+                        <a href="/#" rel="noopener noreferrer" target="_blank" className="box-project">
+                            <img src={suprem} className="logo-project" alt="Suprem Cash" />
+                        </a>
                     </ScrollAnimation>
                 </div>
                 <div className="col-md-4">
                     <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="#" className="box-project"></a>
+                        <a href="/#" rel="noopener noreferrer" target="_blank" className="box-project">
+                            <img src={maispetro} className="logo-project" alt="Suprem Cash" />
+                        </a>
                     </ScrollAnimation>
                 </div>
                 <div className="col-md-4">
                     <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="#" className="box-project"></a>
-                    </ScrollAnimation>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-md-4">
-                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="#" className="box-project"></a>
-                    </ScrollAnimation>
-                </div>
-                <div className="col-md-4">
-                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="#" className="box-project"></a>
-                    </ScrollAnimation>
-                </div>
-                <div className="col-md-4">
-                    <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="#" className="box-project"></a>
+                        <a href="/#" rel="noopener noreferrer" target="_blank" className="box-project">
+                            <img src={showmusic} className="logo-project" alt="Suprem Cash" />
+                        </a>
                     </ScrollAnimation>
                 </div>
             </div>
