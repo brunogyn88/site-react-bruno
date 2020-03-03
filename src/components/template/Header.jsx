@@ -37,13 +37,16 @@ export default class Header extends Component {
     componentDidMount() {
         window.onscroll = () => this.handleScroll()
     }
-
-    // scrollToMyRef = () => window.scrollTo(0, this.myRef.current.offsetTop)   
+  
     scrollToMyRef(e, name) {
         e.preventDefault()
-
-        window.scrollTo(0, this.myRef.current.offsetTop)
-        console.log(this)
+        window.scrollTo({
+            top: document.getElementById(name).offsetTop,
+            behavior: "smooth"
+        })
+        this.setState({
+            isActive: !this.state.isActive
+        })
     }
 
     render() {
@@ -57,12 +60,12 @@ export default class Header extends Component {
                         <MediaQuery minDeviceWidth={1280}>
                             <Col md={10}>
                                 <nav>
-                                    <a ref="cpDev1" onClick={e => this.scrollToMyRef(e, 'home')} href="/">Home</a>
-                                    <a href="/institucional">Sobre mim</a>
-                                    <a href="/servicos">Serviços</a>
-                                    <a href="/servicos">Skills</a>
-                                    <a href="/projetos">Projetos</a>
-                                    <a href="/contato">Contato</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'home')} href="">Home</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'about')} href="">Sobre mim</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'service')} href="" >Serviços</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'skill')} href="" >Habilidades</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'project')} href="" >Projetos</a>
+                                    <a onClick={e => this.scrollToMyRef(e, 'contact')} href="">Contato</a>
                                 </nav>
                             </Col>
                         </MediaQuery>
@@ -79,12 +82,12 @@ export default class Header extends Component {
                         <MediaQuery maxDeviceWidth={1280}>
                             <Col md={12}>
                                 <nav className={this.state.isActive ? 'active-menu' : ''}>
-                                    <a className="menu" href="/">Home</a>
-                                    <a className="menu" href="/institucional">Sobre mim</a>
-                                    <a className="menu" href="/servicos">Serviços</a>
-                                    <a className="menu" href="/servicos">Skills</a>
-                                    <a className="menu" href="/projetos">Projetos</a>
-                                    <a className="menu" href="/contato">Contato</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'home')} href="">Home</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'about')} href="">Sobre mim</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'service')} href="" >Serviços</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'skill')} href="" >Habilidades</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'project')} href="" >Projetos</a>
+                                    <a className="menu" onClick={e => this.scrollToMyRef(e, 'contact')} href="">Contato</a>
                                 </nav>
                             </Col>
                         </MediaQuery>

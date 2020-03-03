@@ -16,3 +16,23 @@ section#contact {
   margin: 0 !important;
   line-height: 2;
 }
+
+@media screen and (max-width: 1280px) {
+  .text-message {
+    font-size: 20px;
+    font-family: Montserrat-Bold;
+    color: white;
+    text-align: center;
+    display: block;
+  }
+
+  .text-contact {
+    font-size: 18px;
+    font-family: Montserrat-Bold;
+    color: white;
+    margin: 0 !important;
+    text-align: center;
+    line-height: 1;
+    display: block;
+  }
+}

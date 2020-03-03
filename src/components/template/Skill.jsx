@@ -7,7 +7,7 @@ import ProgressSkill from '../ProgressSkill'
 export default props =>
     <section id="skill">
         <div className="container">
-            <h1>Skills</h1>
+            <h1>Habilidades</h1>
             <ProgressSkill icon="angular" width="90" />
             <ProgressSkill icon="react" width="70" />
             <ProgressSkill icon="html5" width="100" />
