@@ -1,4 +1,4 @@
-import './Footer.css'
+import './Style.css'
 import React from 'react'
 
 export default props =>

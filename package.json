@@ -1,5 +1,6 @@
 {
   "name": "site-react-bruno",
+  "homepage": "http://www.brcodeweb.com.br",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

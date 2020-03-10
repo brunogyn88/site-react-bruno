@@ -1,6 +1,6 @@
-import './Header.css'
+import './Style.css'
 import React, { Component } from 'react'
-import logo from '../../images/logo-bruno.png'
+import logo from '../../../images/logo-bruno.png'
 import { HamburgerArrow } from 'react-animated-burgers'
 import MediaQuery from 'react-responsive'
 import { Col, Row } from 'react-bootstrap'

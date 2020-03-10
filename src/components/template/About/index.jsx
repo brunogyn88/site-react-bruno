@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import './Style.css'
 
 export default props =>
     <section id="about">

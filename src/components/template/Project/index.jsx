@@ -1,9 +1,9 @@
 import React from 'react'
-import './Project.css'
+import './Style.css'
 import ScrollAnimation from 'react-animate-on-scroll';
-import suprem from '../../images/suprem.jpg'
-import maispetro from '../../images/maispetro.jpg'
-import showmusic from '../../images/showmusic.jpg'
+import suprem from '../../../images/suprem.jpg'
+import maispetro from '../../../images/maispetro.jpg'
+import showmusic from '../../../images/showmusic.jpg'
 
 export default props =>
     <section id="project">

@@ -1,8 +1,8 @@
 import React from 'react'
-import './Skill.css'
+import './Style.css'
 import ProgressBar from 'react-bootstrap/ProgressBar'
-import rorimage from '../../images/ror.png'
-import ProgressSkill from '../ProgressSkill'
+import rorimage from '../../../images/ror.png'
+import ProgressSkill from '../../ProgressSkill'
 
 export default props =>
     <section id="skill">
