@@ -8,7 +8,7 @@ export default class ProgressSkill extends Component {
         return (
             <div className="row">
                 <div className="col-md-2">
-                    <FontAwesomeIcon className="icon-service" icon={["fab", this.props.icon]} />
+                    <FontAwesomeIcon className="icon-service-2" icon={["fab", this.props.icon]} />
                     <label className="text-name">{this.props.name}</label>
                 </div>
                 <div className="col-md-10">

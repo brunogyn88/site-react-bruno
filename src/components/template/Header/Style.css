@@ -8,6 +8,10 @@
   z-index: 999;
 }
 
+button:focus {
+  outline: none !important;
+}
+
 nav {
   display: flex !important;
   justify-content: flex-end;

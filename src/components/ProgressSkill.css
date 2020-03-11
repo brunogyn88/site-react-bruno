@@ -1,13 +1,33 @@
-.icon-service{
-    margin: 20px 0;
+.icon-service-2 {
+  margin: 20px 0;
+  font-size: 50px;
+  color: white;
 }
 
-.text-name{
+.text-name {
+  font-size: 16px;
+  font-family: Montserrat-Bold;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 32px;
+  left: 90px;
+}
+
+@media screen and (max-width: 480px) {
+  .icon-service-2 {
+    margin: 35px 0 -30px;
+    font-size: 50px;
+    color: white;
+  }
+
+  .text-name {
     font-size: 16px;
     font-family: Montserrat-Bold;
     color: white;
     text-align: center;
     position: absolute;
-    top: 32px;
-    left: 90px;
+    top: 60px;
+    left: 89px;
+  }
 }
