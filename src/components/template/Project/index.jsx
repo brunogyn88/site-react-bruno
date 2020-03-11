@@ -12,22 +12,22 @@ export default props =>
             <div className="row">
                 <div className="col-md-4">
                     <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="/#" rel="noopener noreferrer" target="_blank" className="box-project">
+                        <a href="https://suprem.cash/" rel="noopener noreferrer" target="_blank" className="box-project">
                             <img src={suprem} className="logo-project" alt="Suprem Cash" />
                         </a>
                     </ScrollAnimation>
                 </div>
                 <div className="col-md-4">
                     <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="/#" rel="noopener noreferrer" target="_blank" className="box-project">
-                            <img src={maispetro} className="logo-project" alt="Suprem Cash" />
+                        <a href="https://maispetro.com.br/" rel="noopener noreferrer" target="_blank" className="box-project">
+                            <img src={maispetro} className="logo-project" alt="Mais Petro" />
                         </a>
                     </ScrollAnimation>
                 </div>
                 <div className="col-md-4">
                     <ScrollAnimation animateIn='wobble' initiallyVisible={true}>
-                        <a href="/#" rel="noopener noreferrer" target="_blank" className="box-project">
-                            <img src={showmusic} className="logo-project" alt="Suprem Cash" />
+                        <a href="http://showmusic.me/" rel="noopener noreferrer" target="_blank" className="box-project">
+                            <img src={showmusic} className="logo-project" alt="Show Music" />
                         </a>
                     </ScrollAnimation>
                 </div>

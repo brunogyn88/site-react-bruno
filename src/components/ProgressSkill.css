@@ -1,3 +1,13 @@
 .icon-service{
     margin: 20px 0;
 }
+
+.text-name{
+    font-size: 16px;
+    font-family: Montserrat-Bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 32px;
+    left: 90px;
+}

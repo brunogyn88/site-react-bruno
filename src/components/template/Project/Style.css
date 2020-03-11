@@ -9,3 +9,9 @@ section#project {
   background-color: white;
   margin: 35px 0 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .logo-project {
+    width: 100%;
+  }
+}

@@ -7,10 +7,11 @@ export default class ProgressSkill extends Component {
     render() {
         return (
             <div className="row">
-                <div className="col-md-1">
+                <div className="col-md-2">
                     <FontAwesomeIcon className="icon-service" icon={["fab", this.props.icon]} />
+                    <label className="text-name">{this.props.name}</label>
                 </div>
-                <div className="col-md-11">
+                <div className="col-md-10">
                     <ProgressBar animated now={this.props.width} />
                 </div>
             </div>

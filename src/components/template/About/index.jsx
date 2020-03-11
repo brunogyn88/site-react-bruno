@@ -10,9 +10,9 @@ export default props =>
                 Desenvolvedor Full Stack<br />
                 Programador e desenvolvedor há mais de 5 anos atuando diretamente no mercado.
                     Apaixonado por desenvolvimento web e mobile,
-                    com uma experiência sólida na parte de front-end web/mobile,
+                    com experiência sólida na parte de front-end web/mobile,
                     bases sólidas em JavaScript, TypeScript, Angular,
-                    React, ionic3, html5, css, sass, PHP e Ruby on Rails.
+                    React, ionic, html5, css, sass, PHP, Ruby on Rails e Node.
             </label>
             <label className="contact">
                 Telefone / <a className="whatsapp" rel="noopener noreferrer" href="https://wa.me/5562998442772" target="_blank">Whatsapp</a> : (62) 99844-2772<br />

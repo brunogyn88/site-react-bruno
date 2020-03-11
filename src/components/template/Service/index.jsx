@@ -12,7 +12,7 @@ export default props =>
                     <ScrollAnimation animateIn='bounceInRight' initiallyVisible={true}>
                         <div className="content-service">
                             <FontAwesomeIcon className="icon-service" icon={["fas", "mobile-alt"]} />
-                            <label className="title-service">Desenvolvedor de Aplicativos</label>
+                            <label className="title-service">Criação de Aplicativos</label>
                             <label className="subtitle-service">Desenvolvimento de Aplicativos para Celulares Android e iOS (iPhone).</label>
                         </div>
                     </ScrollAnimation>
@@ -42,7 +42,7 @@ export default props =>
                         <div className="content-service">
                             <FontAwesomeIcon className="icon-service" icon={["fas", "laptop-code"]} />
                             <label className="title-service">Loja Virtual / Ecommerce</label>
-                            <label className="subtitle-service">Criação de Loja Online, venda produtos ou receba pagamentos através da da Internet.</label>
+                            <label className="subtitle-service">Criação de Loja Online, venda produtos ou receba pagamentos pela Internet.</label>
                         </div>
                     </ScrollAnimation>
                 </div>
@@ -60,7 +60,7 @@ export default props =>
                         <div className="content-service">
                             <FontAwesomeIcon className="icon-service" icon={["fa", "keyboard"]} />
                             <label className="title-service">Desenvolvedor Back-End</label>
-                            <label className="subtitle-service">Especialista em PHP e Ruby On Rails</label>
+                            <label className="subtitle-service">Especialista em PHP, Ruby On Rails e Node</label>
                         </div>
                     </ScrollAnimation>
                 </div>
