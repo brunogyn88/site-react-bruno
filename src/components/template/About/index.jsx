@@ -15,7 +15,7 @@ export default props =>
                     React, ionic, html5, css, sass, PHP, Ruby on Rails e Node.
             </label>
             <label className="contact">
-                Telefone / <a className="whatsapp" rel="noopener noreferrer" href="https://wa.me/5562998442772" target="_blank">Whatsapp</a> : (62) 99844-2772<br />
+                Email / brunogyn.eng@gmail.com<br />
                 Goiânia - Goiás
             </label>
         </div>
