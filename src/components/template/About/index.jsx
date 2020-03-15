@@ -1,5 +1,6 @@
 import React from 'react'
 import './Style.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default props =>
     <section id="about">
@@ -18,5 +19,9 @@ export default props =>
                 Email / brunogyn.eng@gmail.com<br />
                 Goiânia - Goiás
             </label>
+            <a href="https://www.linkedin.com/in/bruno-alves-sousa/" rel="noopener noreferrer" target="_blank" className="btn-social">
+                <FontAwesomeIcon className="icon-service-2" icon={["fab", "linkedin"]} />
+            </a>
+
         </div>
     </section>
